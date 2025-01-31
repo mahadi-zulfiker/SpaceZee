@@ -11,7 +11,7 @@ function Footer() {
         <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-2 mb-6 md:mb-0">
           <Image src={Logo} alt="Foodieland Logo" width={150} height={50} />
           <p className="text-gray-600 text-sm text-center md:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            get To know about us from the very beginning. We are here to help you with our best recipes.
           </p>
         </div>
 

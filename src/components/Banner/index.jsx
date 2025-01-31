@@ -29,8 +29,7 @@ const Banner = () => {
           </h1>
 
           <p className="text-gray-600 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Get To know about us from the very beginning. We are here to help you with our best recipes and we are here to help you with our best recipes.
           </p>
 
           <div className="flex items-center space-x-6">
