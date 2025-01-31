@@ -29,7 +29,7 @@ const Subscribe = () => {
   };
 
   return (
-    <div className="relative bg-[#E7F9FD] rounded-2xl  space-y-8 lg:p-20 p-16 pb-32 text-center max-w-7xl mx-auto overflow-hidden m-4">
+    <div className="relative bg-[#E7F9FD] rounded-2xl  space-y-8 lg:p-20 p-16 pb-32 text-center max-w-7xl mx-auto overflow-hidden mb-4">
       <h2 className="text-4xl font-bold text-gray-900">Deliciousness to your inbox</h2>
       <p className="text-gray-600 mt-2">
         Stay updated with the latest recipes, healthy meal plans, and exclusive deals. Join our community today!

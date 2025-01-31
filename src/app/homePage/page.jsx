@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner'
 import Categories from '@/components/Categories'
 import Footer from '@/components/Footer'
+import InstagramPosts from '@/components/InstagramPosts'
 import Kitchen from '@/components/Kitchen'
 import Navbar from '@/components/Navbar'
 import Recipes from '@/components/Recipes/Index'
@@ -15,6 +16,7 @@ function HomePage() {
             <Categories />
             <Recipes />
             <Kitchen />
+            <InstagramPosts />
             <Subscribe />
             <Footer />
         </div>
