@@ -12,7 +12,7 @@ const Banner = () => {
     <div className="relative max-w-7xl mx-auto rounded-2xl my-4">
       {/* Badge */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
-        <Image src={Badge} alt="Handpicked Badge" width={120} height={100} />
+        <Image src={Badge} alt="Handpicked Badge" width={100} height={80} />
       </div>
 
       <div className="flex flex-col bg-[#E7FAFE] md:flex-row items-center md:items-start justify-between">

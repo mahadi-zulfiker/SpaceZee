@@ -35,7 +35,7 @@ const Recipes = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-8 py-20 text-center">
+    <div className="max-w-7xl mx-auto lg:px-8 lg:py-20 text-center">
       {/* Title Section */}
       <h2 className="text-4xl font-bold text-gray-800">Simple and tasty recipes</h2>
       <p className="text-gray-600 mt-2 max-w-lg mx-auto">
