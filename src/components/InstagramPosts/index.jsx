@@ -5,6 +5,7 @@ import img1 from '../../../public/Post.png';
 import img2 from '../../../public/Post (1).png';
 import img3 from '../../../public/Post (2).png';
 import img4 from '../../../public/Post (3).png';
+import { FaInstagram } from 'react-icons/fa';
 
 function InstagramPosts() {
   return (
@@ -27,10 +28,10 @@ function InstagramPosts() {
       </div>
       
       {/* Button */}
-      <div className="my-12 justify-items-center">
+      <div className="my-12 justify-items-center text-center mx-auto">
         <button className="px-6 py-3 bg-black text-white rounded-md shadow-md hover:bg-gray-800 transition flex items-center gap-2">
           Visit Our Instagram
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 2C5.014 2 3 4.014 3 6.5v11C3 19.986 5.014 22 7.5 22h9c2.486 0 4.5-2.014 4.5-4.5v-11C21 4.014 18.986 2 16.5 2h-9zM7.5 4h9c1.379 0 2.5 1.121 2.5 2.5v11c0 1.379-1.121 2.5-2.5 2.5h-9c-1.379 0-2.5-1.121-2.5-2.5v-11C5 5.121 6.121 4 7.5 4zM12 7.5c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5zm0 2c1.378 0 2.5 1.121 2.5 2.5s-1.122 2.5-2.5 2.5-2.5-1.121-2.5-2.5 1.122-2.5 2.5-2.5z" /></svg>
+          <FaInstagram size={20} />
         </button>
       </div>
     </section>
