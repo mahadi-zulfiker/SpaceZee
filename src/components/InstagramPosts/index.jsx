@@ -8,7 +8,7 @@ import img4 from '../../../public/Post (3).png';
 
 function InstagramPosts() {
   return (
-    <section className="text-center lg:py-20 bg-gradient-to-b to-blue-50 max-w-7xl mx-auto px-6 md:px-16 lg:px-24">
+    <section className="text-center lg:py-16 mb-4 bg-gradient-to-b from-gray-100 to-[#E7F9FD] max-w-7xl mx-auto px-6">
       {/* Title */}
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
         Check out <span className="text-black">@foodieland</span> on Instagram
