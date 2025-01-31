@@ -27,7 +27,7 @@ function Footer() {
             <a href="#" className="text-gray-800 hover:text-orange-500 font-medium text-sm">
               Contact
             </a>
-            <a href="#" className="text-gray-800 hover:text-orange-500 font-medium text-sm">
+            <a href="/aboutUs" className="text-gray-800 hover:text-orange-500 font-medium text-sm">
               About us
             </a>
           </nav>

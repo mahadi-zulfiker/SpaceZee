@@ -3,6 +3,7 @@ import Categories from '@/components/Categories'
 import Footer from '@/components/Footer'
 import InstagramPosts from '@/components/InstagramPosts'
 import Kitchen from '@/components/Kitchen'
+import Menus from '@/components/Menus'
 import Navbar from '@/components/Navbar'
 import Recipes from '@/components/Recipes/Index'
 import Subscribe from '@/components/Subscribe'
@@ -17,6 +18,7 @@ function HomePage() {
             <Recipes />
             <Kitchen />
             <InstagramPosts />
+            <Menus />
             <Subscribe />
             <Footer />
         </div>

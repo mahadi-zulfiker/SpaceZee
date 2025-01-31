@@ -18,10 +18,10 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 text-[15px] font-medium">
         <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-        <li><Link href="/recipes" className="hover:text-orange-500">Recipes</Link></li>
-        <li><Link href="/blog" className="hover:text-orange-500">Blog</Link></li>
-        <li><Link href="/contact" className="hover:text-orange-500">Contact</Link></li>
-        <li><Link href="/about-us" className="hover:text-orange-500">About us</Link></li>
+        <li><Link href="/" className="hover:text-orange-500">Recipes</Link></li>
+        <li><Link href="/" className="hover:text-orange-500">Blog</Link></li>
+        <li><Link href="/" className="hover:text-orange-500">Contact</Link></li>
+        <li><Link href="/aboutUs" className="hover:text-orange-500">About us</Link></li>
       </ul>
 
       {/* Social Icons */}
@@ -65,10 +65,10 @@ const Navbar = () => {
         {/* Sidebar Links */}
         <div className="flex flex-col space-y-6 my-6 px-4">
           <Link href="/" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Home</Link>
-          <Link href="/recipes" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Recipes</Link>
-          <Link href="/blog" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Blog</Link>
-          <Link href="/contact" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Contact</Link>
-          <Link href="/about-us" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg transition text-center" onClick={() => setIsSidebarOpen(false)}>About us</Link>
+          <Link href="/" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Recipes</Link>
+          <Link href="/" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Blog</Link>
+          <Link href="/" className="text-lg hover:text-orange-500" onClick={() => setIsSidebarOpen(false)}>Contact</Link>
+          <Link href="/aboutUs" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg transition text-center" onClick={() => setIsSidebarOpen(false)}>About us</Link>
 
           {/* Sidebar Social Icons */}
           <div className="flex space-x-4 mt-4 text-gray-700 text-xl">
